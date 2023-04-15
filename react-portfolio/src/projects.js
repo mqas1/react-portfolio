@@ -1,6 +1,7 @@
 const projects = [
   {
     title: 'CityFinder',
+    id: 1,
     technologies: 'HTML/CSS/JavaScript',
     image: './assets/images/CityFinder.jpeg',
     link: 'https://mqas1.github.io/CityFinder-fork/',
@@ -8,6 +9,7 @@ const projects = [
   },
   {
     title: 'Open Chat Box',
+    id: 2,
     technologies: 'Full Stack',
     image: './assets/images/OpenChatBox.jpeg',
     link: 'https://open-chat-box.herokuapp.com/',
@@ -15,6 +17,7 @@ const projects = [
   },
   {
     title: 'J.A.T.E',
+    id: 3,
     technologies: 'Full Stack PWA',
     image: './assets/images/JATE.jpeg',
     link: 'https://mqas1-text-editor.herokuapp.com/',
@@ -22,6 +25,7 @@ const projects = [
   },
   {
     title: 'Note Taker',
+    id: 4,
     technologies: 'Full Stack',
     image: './assets/images/NoteTaker.jpeg',
     link: 'https://note-taker-mqas1.herokuapp.com/',
@@ -29,6 +33,7 @@ const projects = [
   },
   {
     title: 'Weather Dashboard',
+    id: 5,
     technologies: 'HTML/CSS/JavaScript',
     image: './assets/images/WeatherDashboard.jpeg',
     link: 'https://mqas1.github.io/weather-dashboard/',
@@ -36,6 +41,7 @@ const projects = [
   },
   {
     title: 'Work Day Scheduler',
+    id: 6,
     technologies: 'HTML/CSS/JavaScript',
     image: './assets/images/WorkDayScheduler.jpeg',
     link: 'https://mqas1.github.io/work-day-scheduler/',
