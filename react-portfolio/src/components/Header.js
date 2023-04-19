@@ -1,5 +1,5 @@
-import React from "react";
-import NavTabs from "./NavTabs";
+import React from 'react';
+import NavTabs from './NavTabs';
 import headerImage from '../assets/images/Header.jpeg'
 
 function Header ({ currentPage, handlePageChange }) {

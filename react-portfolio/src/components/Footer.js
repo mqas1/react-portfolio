@@ -1,14 +1,12 @@
-import React from "react";
-import { Github } from "react-bootstrap-icons";
-import { Linkedin } from "react-bootstrap-icons";
-import { StackOverflow } from "react-bootstrap-icons";
+import React from 'react';
+import { Github, Linkedin, StackOverflow } from 'react-bootstrap-icons';
 
 function Footer () {
   return (
     <div>
       <ul>
         <li key='icon-1'>
-          <a href='https://github.com/mqas1' target='_blank' rel="noreferrer">
+          <a href='https://github.com/mqas1' target='_blank' rel='noreferrer'>
             <Github alt='GitHub icon with link to profile'/>
           </a>
         </li>
