@@ -1,16 +1,22 @@
 import React from 'react';
+import morganPic from '../../assets/images/morgan.jpeg'
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img src={morganPic} alt='Morgan sitting above lake Geneva'/>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        My academic background is in philosphy and history having completed a Bachelor of Arts at the University of Sydney.
+      </p>
+      <p>
+        Music is one of my passions, both its reproduction and in playing it. I play the drums and guitar.
+      </p>
+      <p>
+        I find that web development allows me to showcase these aspects of my personality. It is a great medium to channel one's creativity whether starting fresh with a blank canvas or adding to an existing codebase.
+      </p>
+      <p>
+        Web development allows me to utilise the problem solving and critical thinking skills that I honed as an undergraduate.
       </p>
     </div>
   );
