@@ -10,8 +10,7 @@ import projects from '../projects';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  // TODO: Add a comment describing the functionality of this method
-  // responding back by returning back a component, eg home
+  // function that is responding back by returning back a component, eg about
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
