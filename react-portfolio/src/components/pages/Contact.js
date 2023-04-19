@@ -16,8 +16,6 @@ function Contact () {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and message
-
-
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'userName') {
@@ -25,7 +23,6 @@ function Contact () {
     } else {
       setMessage(inputValue);
     }
-
   };
 
   const handleFormFocus = (e) => {

@@ -1,10 +1,11 @@
 import React from "react";
 import NavTabs from "./NavTabs";
+import headerImage from '../assets/images/Header.jpeg'
 
 function Header ({ currentPage, handlePageChange }) {
   return (
     <div>
-      <h1>Morgan Qasabian</h1>
+      <img src={headerImage} alt='blue fractal wave' />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
