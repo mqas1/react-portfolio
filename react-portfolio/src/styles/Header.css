@@ -1,0 +1,25 @@
+.hero {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 15rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  background-image: url('../assets/images/Header.jpeg');
+  background-size: cover;
+  background-repeat: round;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 20rem;
+  }
+}

@@ -1,0 +1,53 @@
+.custom-navbar {
+  position: relative;
+  margin-top: -7rem;
+  margin-bottom: 4rem;
+}
+
+.custom-navbar-expand {
+  position: relative;
+  margin-top: -7rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav-pills .custom-pill .nav-link:not(.active) {
+  color:white;
+}
+
+.nav-pills .custom-pill .nav-link.active {
+  background-image: linear-gradient(to right, #8e9eab, #eef2f3);
+  background-color: #1111;
+  color:black;
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-navbar,
+  .custom-navbar-expand {
+    margin-top: -8.75rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .custom-navbar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (width: 360px) {
+  .custom-navbar-expand {
+    margin-bottom: -1rem;
+  }
+}
+
+@media only screen and (width: 360px) {
+  .custom-navbar-expand {
+    margin-bottom: -1rem;
+  }
+}
+
+@media only screen and (width: 280px) {
+  .custom-navbar-expand {
+    margin-top: -11.5rem;
+    margin-bottom: 0rem;
+  }
+}

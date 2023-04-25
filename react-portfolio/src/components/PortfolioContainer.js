@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import About from './pages/About';
@@ -9,6 +9,11 @@ import projects from '../projects';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
+
+  useEffect(() => {
+    const title = `Morgan's Portfolio`;
+    document.title = title
+  });
 
   // function that is responding back by returning back a component, eg about
   const renderPage = () => {

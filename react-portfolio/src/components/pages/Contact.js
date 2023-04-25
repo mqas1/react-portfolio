@@ -72,39 +72,40 @@ function Contact () {
 
   return (
     <div>
-      <h1>Contact Page</h1>
-      <form className="form">
+      <h2>Contact Me</h2>
+      <form className='form'>
       <input
           value={userName}
-          name="userName"
+          name='userName'
           onChange={handleInputChange}
           onBlur={handleFormFocus}
-          type="text"
-          placeholder="name"
+          type='text'
+          placeholder='name'
         />
         <input
           value={email}
-          name="email"
+          name='email'
           onChange={handleInputChange}
           onBlur={handleFormFocus}
-          type="email"
-          placeholder="email"
+          type='email'
+          placeholder='email'
         />
-        <input
+        <textarea
           value={message}
-          name="message"
+          name='message'
           onChange={handleInputChange}
           onBlur={handleFormFocus}
-          type="text"
-          placeholder="message"
+          type='text'
+          placeholder='message'
+          className='message-input'
         />
-        <button className='btn btn-primary' type="button" onClick={handleFormSubmit}>
+        <button className='btn custom-btn' type='button' onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className='error-text'>{errorMessage}</p>
         </div>
       )}
     </div>
