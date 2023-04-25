@@ -3,7 +3,7 @@ import { Github, Linkedin, StackOverflow } from 'react-bootstrap-icons';
 
 function Footer () {
   return (
-    <div>
+    <footer>
       <ul>
         <li key='icon-1'>
           <a href='https://github.com/mqas1' target='_blank' rel='noreferrer'>
@@ -21,7 +21,7 @@ function Footer () {
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 }
 

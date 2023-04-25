@@ -5,7 +5,7 @@ import { Download } from "react-bootstrap-icons";
 function Resume () {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <h2>My Resume</h2>
       <p>Download my <a href={resumePdf} target='_blank' rel='noreferrer'>resume <Download /></a></p>
       <div className='container'>
         <div className='container-fluid'>
