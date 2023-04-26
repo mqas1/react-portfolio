@@ -45,39 +45,39 @@ function Project ({ projects }) {
   };
 
   return (
-      <div className='d-flex flex-wrap justify-content-evenly m-5'>
-        {projects.map((project) => (
-          <div className='custom-card col-10 col-md-5 m-1'
-          key={project.id}
-          // events for displaying the selected card
-          onMouseEnter={() => handleMouseEnter(project)}
-          onMouseLeave={() => handleMouseLeave()}>
-            <div className={`img-${project.id}`}
-            alt={`project ${project.id}-${project.title}`}>
-              {/* conditionally rendering the selected if the selected card's id matches the id of the project prop*/}
-              {projectData.id === project.id ? (
-                <div className='custom-card-body'>
-                  <a className='h5' href={projectData.link} target='_blank' rel='noreferrer'>
-                    {projectData.title}
-                  </a>
-                  <p className='h6'>
-                    {projectData.technologies}
-                  </p>
-                  <a href={projectData.github} target='_blank' rel='noreferrer'>
-                    {notHoveredCard ? (
-                      <Github style={{ visibility: 'hidden' }}/>
-                    ) : (
-                      <Github style={{ visibility: 'visible' }}/>
-                    )}
-                  </a>
-                </div>
-              ) : (
-                ''
+    <div className='d-flex flex-wrap justify-content-evenly m-5'>
+      {projects.map((project) => (
+        <div className='custom-card col-10 col-md-5 m-1'
+        key={project.id}
+        // events for displaying the selected card
+        onMouseEnter={() => handleMouseEnter(project)}
+        onMouseLeave={() => handleMouseLeave()}>
+          <div className={`img-${project.id}`}
+          alt={`project ${project.id}-${project.title}`}>
+            {/* conditionally rendering the selected if the selected card's id matches the id of the project prop*/}
+            {projectData.id === project.id ? (
+              <div className='custom-card-body'>
+                <a className='h5' href={projectData.link} target='_blank' rel='noreferrer'>
+                  {projectData.title}
+                </a>
+                <p className='h6'>
+                  {projectData.technologies}
+                </p>
+                <a href={projectData.github} target='_blank' rel='noreferrer'>
+                  {notHoveredCard ? (
+                    <Github style={{ visibility: 'hidden' }}/>
+                  ) : (
+                    <Github style={{ visibility: 'visible' }}/>
+                  )}
+                </a>
+              </div>
+            ) : (
+              ''
             )}
-            </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
