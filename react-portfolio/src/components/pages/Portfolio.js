@@ -41,7 +41,7 @@ function Portfolio ({ projects }) {
 
   return (
     <section>
-      <h2>My Portfolio</h2>
+      <h2>Portfolio</h2>
       <div className='d-flex flex-wrap justify-content-evenly m-5'>
         {projects.map((project) => (
           <div className='custom-card col-10 col-md-5 m-1'

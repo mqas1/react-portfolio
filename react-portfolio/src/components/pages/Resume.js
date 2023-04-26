@@ -1,14 +1,15 @@
 import React from "react";
 import resumePdf from '../../assets/resume.pdf';
 import { Download } from "react-bootstrap-icons";
+import '../../styles/Resume.css';
 
 function Resume () {
   return (
-    <div>
-      <h2>My Resume</h2>
-      <p>Download my <a href={resumePdf} target='_blank' rel='noreferrer'>resume <Download /></a></p>
-      <div className='container'>
-        <div className='container-fluid'>
+    <div className='text-white'>
+      <h2>Resume</h2>
+      <p className='mx-2 p-2'>Download my <a className='resume-link text-white' href={resumePdf} target='_blank' rel='noreferrer'>resume <Download /></a></p>
+      <div className='container-fluid mx-2'>
+        <div className=''>
           <h5>Front-end Proficiencies</h5>
           <ul>
             <li>HTML</li>
@@ -20,8 +21,8 @@ function Resume () {
             <li>Bootstrap</li>
           </ul>
         </div>
-        <div className='container-fluid'>
-          <h5>back-end Proficiencies</h5>
+        <div>
+          <h5>Back-end Proficiencies</h5>
           <ul>
             <li>APIs</li>
             <li>Node</li>

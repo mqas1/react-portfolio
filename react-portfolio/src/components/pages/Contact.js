@@ -72,7 +72,7 @@ function Contact () {
 
   return (
     <div>
-      <h2>Contact Me</h2>
+      <h2>Contact</h2>
       <form className='form'>
       <input
           value={userName}
@@ -99,15 +99,15 @@ function Contact () {
           placeholder='message'
           className='message-input'
         />
-        <button className='btn custom-btn' type='button' onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
+         {errorMessage && (
         <div>
           <p className='error-text'>{errorMessage}</p>
         </div>
       )}
+        <button className='btn custom-btn' type='button' onClick={handleFormSubmit}>
+          Submit
+        </button>
+      </form>
     </div>
   );
 }

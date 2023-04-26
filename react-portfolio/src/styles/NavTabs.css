@@ -39,12 +39,6 @@
   }
 }
 
-@media only screen and (width: 360px) {
-  .custom-navbar-expand {
-    margin-bottom: -1rem;
-  }
-}
-
 @media only screen and (width: 280px) {
   .custom-navbar-expand {
     margin-top: -11.5rem;

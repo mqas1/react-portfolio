@@ -1,0 +1,32 @@
+.footer-ul {
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.custom-svg {
+  height: 3rem !important;
+  width: 3rem !important;
+  color: #8e9eab;
+  transition: 0.5s ease-out;
+  opacity: 0.75
+}
+
+.custom-svg:hover {
+  transform: scale(1.5);
+  color: #B8ADD0;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-svg {
+    height: 2rem !important;
+    width: 2rem !important;
+  }
+}
