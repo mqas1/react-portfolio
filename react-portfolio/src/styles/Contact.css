@@ -1,5 +1,7 @@
 .form {
   margin: 20px;
+  position: relative;
+  height: 50vh;
 }
 
 .form input, 
@@ -17,14 +19,14 @@
 }
 
 .error-text {
-  color: red;
-  margin-left: 2rem;
+  color: #eee;
+  padding: 1rem 0rem;
+  font-size: 18px;
 }
 
 .custom-btn {
   background-image: linear-gradient(to right, #8e9eab, #eef2f3);
   border: #1111 !important;
-  box-shadow: 0 0 20px #eee;
   transition: 0.5s;
   background-size: 200% auto;
 }

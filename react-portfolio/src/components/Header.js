@@ -7,7 +7,7 @@ import '../styles/Header.css';
 function Header ({ currentPage, handlePageChange }) {
   return (
     <header>
-      <div className='hero' alt='blue fractal wave' />
+      <div className='hero' alt='blurred lights' />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
   );
