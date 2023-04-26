@@ -5,6 +5,7 @@ import '../../styles/Portfolio.css';
 
 function Portfolio ({ projects }) {
 
+  // useState to set the initial values for the project card components
   const [projectData, setProjectData] = useState({
     id: '',
     title: '',
@@ -13,8 +14,11 @@ function Portfolio ({ projects }) {
     github: '',
   });
 
+  // useState for adding boolean value to determine whether a particular card is being hovered over with a mouse.
   const [notHoveredCard, setHoveredCard] = useState(true);
 
+  // function to set the values in the project card to those coming from the project props
+  // and change the value of the hovered card to show that it is being hovered over with a mouse.
   const handleMouseEnter = (project) => {
     setProjectData({
       id: project.id,
@@ -27,6 +31,7 @@ function Portfolio ({ projects }) {
     setHoveredCard(false);
   };
 
+  // set the values back to the initial values when the user is no longer hovering over a particular card.
   const handleMouseLeave = () => {
     setProjectData({
       id: '',
@@ -46,10 +51,12 @@ function Portfolio ({ projects }) {
         {projects.map((project) => (
           <div className='custom-card col-10 col-md-5 m-1'
           key={project.id}
+          // events for displaying the selected card
           onMouseEnter={() => handleMouseEnter(project)}
           onMouseLeave={() => handleMouseLeave()}>
             <div className={`img-${project.id}`}
             alt={`project ${project.id}-${project.title}`}>
+              {/* conditionally rendering the selected if the selected card's id matches the id of the project prop*/}
               {projectData.id === project.id ? (
                 <div className='custom-card-body'>
                   <a className='h5' href={projectData.link} target='_blank' rel='noreferrer'>

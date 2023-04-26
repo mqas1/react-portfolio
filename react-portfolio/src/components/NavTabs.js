@@ -4,6 +4,8 @@ import '../styles/NavTabs.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
 
+  // useState being used to control the navbar button as the JQuery code used by Bootstrap does not work with React.
+  // Is also used to change the CSS class names to create a more responsive page depending on whether the button is collapsed or not.
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
