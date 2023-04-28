@@ -11,7 +11,7 @@ export default function PortfolioContainer() {
 
   useEffect(() => {
     const title = `Morgan's Portfolio`;
-    document.title = title
+    document.title = title;
   });
 
   // function that is responding back by returning back a component, eg about

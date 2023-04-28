@@ -99,11 +99,11 @@ function Contact () {
           placeholder='message'
           className='message-input'
         />
-         {errorMessage && (
-        <div>
-          <p className='error-text'>{errorMessage}</p>
-        </div>
-      )}
+        {errorMessage && (
+          <div>
+            <p className='error-text'>{errorMessage}</p>
+          </div>
+        )}
         <button className='btn custom-btn' type='button' onClick={handleFormSubmit}>
           Submit
         </button>

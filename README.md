@@ -8,6 +8,8 @@ This web application was built as an exercise in leveraging the latest technolog
 
 I created this application to showcase examples of previous work, and provide a contact form for potential employers. It was done to highlight my experience with building single-page applications.
 
+![screenshot of 'about me' page](/react-portfolio/src/assets/images/screenshot.jpeg)
+
 [Deployed GitHub Page](https://mqas1.github.io/react-portfolio).
   
 ## Table of Contents
