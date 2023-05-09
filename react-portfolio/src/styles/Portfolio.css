@@ -51,19 +51,19 @@
 }
 
 .img-3::before {
-  background-image: url('../assets/images/JATE.jpeg');
+  background-image: url('../assets/images/eventsScreenshot.jpeg');
 }
 
 .img-4::before {
-  background-image: url('../assets/images/NoteTaker.jpeg');
+  background-image: url('../assets/images/JATE.jpeg');
 }
 
 .img-5::before {
-  background-image: url('../assets/images/WeatherDashboard.jpeg');
+  background-image: url('../assets/images/NoteTaker.jpeg');
 }
 
 .img-6::before {
-  background-image: url('../assets/images/WorkDayScheduler.jpeg');
+  background-image: url('../assets/images/WeatherDashboard.jpeg');
 }
 
 .img-1:hover,
