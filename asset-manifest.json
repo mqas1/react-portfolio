@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.caa1427c.css",
-    "main.js": "/react-portfolio/static/js/main.54b5d3e6.js",
+    "main.css": "/react-portfolio/static/css/main.f5dd6d9f.css",
+    "main.js": "/react-portfolio/static/js/main.48de83b8.js",
     "static/media/Header.jpeg": "/react-portfolio/static/media/Header.a0e6d97d467a0fb03ee6.jpeg",
     "static/media/morgan.jpeg": "/react-portfolio/static/media/morgan.01a3a1989515d3a58e5c.jpeg",
+    "static/media/eventsScreenshot.jpeg": "/react-portfolio/static/media/eventsScreenshot.503c538b65ed438f2b6f.jpeg",
     "static/media/CityFinder.jpeg": "/react-portfolio/static/media/CityFinder.7f968b5fc3273a59aa39.jpeg",
-    "static/media/WorkDayScheduler.jpeg": "/react-portfolio/static/media/WorkDayScheduler.09c964b142fad7f01735.jpeg",
     "static/media/OpenChatBox.jpeg": "/react-portfolio/static/media/OpenChatBox.44f99d91a82af4228b56.jpeg",
     "static/media/WeatherDashboard.jpeg": "/react-portfolio/static/media/WeatherDashboard.0ac91103abf2a88855d2.jpeg",
     "static/media/NoteTaker.jpeg": "/react-portfolio/static/media/NoteTaker.3088a8a69f2526675f29.jpeg",
     "static/media/JATE.jpeg": "/react-portfolio/static/media/JATE.e90accf47030fb70398e.jpeg",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.99104ddf8496c8b3d3e2.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.caa1427c.css.map": "/react-portfolio/static/css/main.caa1427c.css.map",
-    "main.54b5d3e6.js.map": "/react-portfolio/static/js/main.54b5d3e6.js.map"
+    "main.f5dd6d9f.css.map": "/react-portfolio/static/css/main.f5dd6d9f.css.map",
+    "main.48de83b8.js.map": "/react-portfolio/static/js/main.48de83b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.caa1427c.css",
-    "static/js/main.54b5d3e6.js"
+    "static/css/main.f5dd6d9f.css",
+    "static/js/main.48de83b8.js"
   ]
 }
